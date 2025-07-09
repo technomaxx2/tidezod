@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mes Projets</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f0f4f8;
+      color: #333;
+    }
+    header, nav {
+      background: #8d3b4b;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+      color: #ffd1dc;
+    }
+    main {
+      padding: 2em;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .project {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-bottom: 2em;
+      padding: 1.5em;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .project img {
+      width: 300px;
+      max-width: 100%;
+      border-radius: 4px;
+      margin-right: 1.5em;
+    }
+    .project-description {
+      flex: 1;
+      min-width: 250px;
+    }
+    .project-description a {
+      display: inline-block;
+      margin-top: 10px;
+      background: #8d3b4b;
+      color: white;
+      padding: 0.5em 1em;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+    .project-description a:hover {
+      background: #a54a5c;
+    }
+    footer {
+      background: #8d3b4b;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      margin-top: 2em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mes Projets</h1>
+    <nav>
+      <a href="index.html">Accueil</a>
+      
+    </nav>
+  </header>
+
+  <main>
+    <div class="project">
+      <img src="images/liste.png" alt="To Do List">
+      <div class="project-description">
+        <h2>ToDo Liste</h2>
+        <p>Une application simple pour gérer ses tâches quotidiennes, avec stockage local, suppression, et validation visuelle.</p>
+        <a href="todo.html">Voir le projet</a>
+      </div>
+    </div>
+
+    <div class="project">
+      <img src="images/horloge.png" alt="Horloge numérique">
+      <div class="project-description">
+        <h2>Horloge numérique</h2>
+        <p>Une horloge animée en temps réel utilisant JavaScript pour afficher l’heure, les minutes et les secondes en direct.</p>
+        <a href="horloge.html">Voir le projet</a>
+      </div>
+    </div>
+
+    <div class="project">
+      <img src="images/slider.png" alt="Slider d'images">
+      <div class="project-description">
+        <h2>Slider d’images</h2>
+        <p>Un carousel responsive qui affiche plusieurs images avec transition automatique ou manuelle. Parfait pour un portfolio ou une galerie.</p>
+        <a href="slider.html">Voir le projet</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Pierre Stevenson. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
